@@ -15,17 +15,15 @@ public String baseurl="http://demo.guru99.com/test/newtours/reservation.php";
 
 
 @BeforeTest
-@Parameters({"browser"})
-public void LaunchBrowswer(String browser)
+public void LaunchBrowswer()
 {
-	if(browser.equals("chrome"))
-	{
+	
 	WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 	driver.get(baseurl);
 }
 	
-}
+
 @AfterTest
 public void terminateBrowser(){
     driver.close();

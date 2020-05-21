@@ -6,7 +6,6 @@
       <class name="FlightBooking">
         <methods>
           <include name="terminateBrowser"/>
-          <include name="LaunchBrowswer"/>
           <include name="Booking"/>
         </methods>
       </class> <!-- FlightBooking -->
