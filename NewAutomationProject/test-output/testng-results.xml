@@ -2,36 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-21T23:38:53 IST" name="Suite" finished-at="2020-05-21T23:39:41 IST" duration-ms="47626">
+  <suite started-at="2020-05-21T15:15:42 EDT" name="Default suite" finished-at="2020-05-21T15:16:17 EDT" duration-ms="34283">
     <groups>
     </groups>
-    <test started-at="2020-05-21T23:38:53 IST" name="Test" finished-at="2020-05-21T23:39:41 IST" duration-ms="47626">
-      <class name="NewTest">
-        <test-method is-config="true" signature="LaunchBrowswer()[pri:0, instance:NewTest@33afa13b]" started-at="2020-05-21T23:38:53 IST" name="LaunchBrowswer" finished-at="2020-05-21T23:39:37 IST" duration-ms="43650" status="PASS">
+    <test started-at="2020-05-21T15:15:42 EDT" name="Default test" finished-at="2020-05-21T15:16:17 EDT" duration-ms="34283">
+      <class name="FlightBooking">
+        <test-method is-config="true" signature="LaunchBrowswer()[pri:0, instance:FlightBooking@2ddc8ecb]" started-at="2020-05-21T15:15:42 EDT" name="LaunchBrowswer" finished-at="2020-05-21T15:16:07 EDT" duration-ms="24542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowswer -->
-        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:NewTest@33afa13b]" started-at="2020-05-21T23:39:37 IST" name="LoginTest" finished-at="2020-05-21T23:39:39 IST" duration-ms="2317" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[aru]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[aru]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Booking()[pri:0, instance:FlightBooking@2ddc8ecb]" started-at="2020-05-21T15:16:08 EDT" name="Booking" finished-at="2020-05-21T15:16:12 EDT" duration-ms="4750" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:NewTest@33afa13b]" started-at="2020-05-21T23:39:40 IST" name="terminateBrowser" finished-at="2020-05-21T23:39:41 IST" duration-ms="1047" status="PASS">
+        </test-method> <!-- Booking -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@2ddc8ecb]" started-at="2020-05-21T15:16:12 EDT" name="terminateBrowser" finished-at="2020-05-21T15:16:17 EDT" duration-ms="4084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
-      </class> <!-- NewTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- FlightBooking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
