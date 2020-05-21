@@ -2,9 +2,14 @@
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2020-05-22T00:54:38 IST" name="Default suite" finished-at="2020-05-22T00:54:38 IST" duration-ms="120">
+=======
+  <suite started-at="2020-05-21T15:15:42 EDT" name="Default suite" finished-at="2020-05-21T15:16:17 EDT" duration-ms="34283">
+>>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test started-at="2020-05-22T00:54:38 IST" name="Default test" finished-at="2020-05-22T00:54:38 IST" duration-ms="120">
       <class name="FlightBooking">
         <test-method is-config="true" signature="LaunchBrowswer(java.lang.String)[pri:0, instance:FlightBooking@7a4ccb53]" started-at="2020-05-22T00:54:38 IST" name="LaunchBrowswer" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1590089078195" status="FAIL">
@@ -42,9 +47,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.TestNGException -->
+=======
+    <test started-at="2020-05-21T15:15:42 EDT" name="Default test" finished-at="2020-05-21T15:16:17 EDT" duration-ms="34283">
+      <class name="FlightBooking">
+        <test-method is-config="true" signature="LaunchBrowswer()[pri:0, instance:FlightBooking@2ddc8ecb]" started-at="2020-05-21T15:15:42 EDT" name="LaunchBrowswer" finished-at="2020-05-21T15:16:07 EDT" duration-ms="24542" status="PASS">
+>>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowswer -->
+<<<<<<< HEAD
         <test-method signature="Booking()[pri:0, instance:FlightBooking@7a4ccb53]" started-at="2020-05-22T00:54:38 IST" name="Booking" finished-at="2020-05-22T00:54:38 IST" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
             <message>
@@ -80,10 +91,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.TestNGException -->
+=======
+        <test-method signature="Booking()[pri:0, instance:FlightBooking@2ddc8ecb]" started-at="2020-05-21T15:16:08 EDT" name="Booking" finished-at="2020-05-21T15:16:12 EDT" duration-ms="4750" status="PASS">
+>>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Booking -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@7a4ccb53]" started-at="2020-05-22T00:54:38 IST" name="terminateBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1590089078300" status="SKIP">
+=======
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@2ddc8ecb]" started-at="2020-05-21T15:16:12 EDT" name="terminateBrowser" finished-at="2020-05-21T15:16:17 EDT" duration-ms="4084" status="PASS">
+>>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
