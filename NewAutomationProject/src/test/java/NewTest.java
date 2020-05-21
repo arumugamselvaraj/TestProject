@@ -1,14 +1,24 @@
 import org.openqa.selenium.By;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 
 
+
+
 public class NewTest extends Base {
+  
+
+  
+  @Parameters({"username","password"})
   @Test
-  public void VerifyLogin() {
-	  driver.findElement(By.name("username")).sendKeys("Demo");
-	  driver.findElement(By.name("password")).sendKeys("Demo123");
-	  driver.findElement(By.id("Loginbtn")).click();
-	  
+  public void LoginTest(String username,String password)
+  {
+	 System.out.println("username"+username+"password"+password);
+	 driver.findElement(By.name("username")).sendKeys(username);
+	 driver.findElement(By.name("password")).sendKeys(password);
+	 
   }
+  
+  
 }
