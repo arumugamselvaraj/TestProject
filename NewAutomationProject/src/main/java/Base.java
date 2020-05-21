@@ -8,7 +8,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Base {
 	
 public WebDriver driver=null;
-public String baseurl="https://anaithugoundermatrimony.com";
+public String baseurl="http://demo.guru99.com/test/newtours/reservation.php";
 @BeforeTest
 public void LaunchBrowswer()
 {
