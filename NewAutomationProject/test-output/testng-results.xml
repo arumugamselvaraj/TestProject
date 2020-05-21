@@ -1,37 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-21T23:38:53 IST" name="Suite" finished-at="2020-05-21T23:39:41 IST" duration-ms="47626">
+  <suite started-at="2020-05-22T00:54:38 IST" name="Default suite" finished-at="2020-05-22T00:54:38 IST" duration-ms="120">
     <groups>
     </groups>
-    <test started-at="2020-05-21T23:38:53 IST" name="Test" finished-at="2020-05-21T23:39:41 IST" duration-ms="47626">
-      <class name="NewTest">
-        <test-method is-config="true" signature="LaunchBrowswer()[pri:0, instance:NewTest@33afa13b]" started-at="2020-05-21T23:38:53 IST" name="LaunchBrowswer" finished-at="2020-05-21T23:39:37 IST" duration-ms="43650" status="PASS">
+    <test started-at="2020-05-22T00:54:38 IST" name="Default test" finished-at="2020-05-22T00:54:38 IST" duration-ms="120">
+      <class name="FlightBooking">
+        <test-method is-config="true" signature="LaunchBrowswer(java.lang.String)[pri:0, instance:FlightBooking@7a4ccb53]" started-at="2020-05-22T00:54:38 IST" name="LaunchBrowswer" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1590089078195" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method LaunchBrowswer but has not been marked @Optional or defined
+in C:\Users\Arumugam\AppData\Local\Temp\testng-eclipse-814317461\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method LaunchBrowswer but has not been marked @Optional or defined
+in C:\Users\Arumugam\AppData\Local\Temp\testng-eclipse-814317461\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:620)
+at org.testng.TestRunner.beforeRun(TestRunner.java:610)
+at org.testng.TestRunner.run(TestRunner.java:581)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowswer -->
-        <test-method signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:NewTest@33afa13b]" started-at="2020-05-21T23:39:37 IST" name="LoginTest" finished-at="2020-05-21T23:39:39 IST" duration-ms="2317" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[aru]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[aru]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="Booking()[pri:0, instance:FlightBooking@7a4ccb53]" started-at="2020-05-22T00:54:38 IST" name="Booking" finished-at="2020-05-22T00:54:38 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method LaunchBrowswer but has not been marked @Optional or defined
+in C:\Users\Arumugam\AppData\Local\Temp\testng-eclipse-814317461\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method LaunchBrowswer but has not been marked @Optional or defined
+in C:\Users\Arumugam\AppData\Local\Temp\testng-eclipse-814317461\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:620)
+at org.testng.TestRunner.beforeRun(TestRunner.java:610)
+at org.testng.TestRunner.run(TestRunner.java:581)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:NewTest@33afa13b]" started-at="2020-05-21T23:39:40 IST" name="terminateBrowser" finished-at="2020-05-21T23:39:41 IST" duration-ms="1047" status="PASS">
+        </test-method> <!-- Booking -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@7a4ccb53]" started-at="2020-05-22T00:54:38 IST" name="terminateBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1590089078300" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
-      </class> <!-- NewTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- FlightBooking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
