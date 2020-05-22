@@ -30,7 +30,7 @@ public class Base {
 		}
 		
 		else if(browser.equals("edge")) {
-			WebDriverManager.edgedriver().setup();
+			WebDriverManager.edgedriver().setup4();
 			driver = new EdgeDriver();
 		}
 		
