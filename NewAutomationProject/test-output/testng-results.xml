@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+=======
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+>>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2020-05-23T00:03:31 IST" name="Default suite" finished-at="2020-05-23T00:03:31 IST" duration-ms="148">
+=======
+  <suite started-at="2020-05-22T23:39:50 IST" name="Default suite" finished-at="2020-05-22T23:41:13 IST" duration-ms="82967">
+>>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test started-at="2020-05-23T00:03:31 IST" name="Default test" finished-at="2020-05-23T00:03:31 IST" duration-ms="148">
       <class name="FlightBooking">
         <test-method is-config="true" signature="LaunchBrowswer(java.lang.String)[pri:0, instance:FlightBooking@2ddc8ecb]" started-at="2020-05-23T00:03:31 IST" name="LaunchBrowswer" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1590172411530" status="FAIL">
@@ -42,8 +51,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.TestNGException -->
+=======
+    <test started-at="2020-05-22T23:39:50 IST" name="Default test" finished-at="2020-05-22T23:41:13 IST" duration-ms="82967">
+      <class name="ObjectLogin">
+        <test-method signature="LoginValidation()[pri:0, instance:ObjectLogin@3901d134]" started-at="2020-05-22T23:39:50 IST" name="LoginValidation" finished-at="2020-05-22T23:41:13 IST" duration-ms="82795" status="PASS">
+>>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- LaunchBrowswer -->
         <test-method signature="Booking()[pri:0, instance:FlightBooking@2ddc8ecb]" started-at="2020-05-23T00:03:31 IST" name="Booking" finished-at="2020-05-23T00:03:31 IST" duration-ms="0" status="SKIP">
           <exception class="org.testng.TestNGException">
@@ -88,6 +103,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
       </class> <!-- FlightBooking -->
+=======
+        </test-method> <!-- LoginValidation -->
+      </class> <!-- ObjectLogin -->
+>>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

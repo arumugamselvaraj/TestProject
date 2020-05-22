@@ -3,13 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FlightBooking">
+      <class name="ObjectLogin">
         <methods>
+<<<<<<< HEAD
           <include name="terminateBrowser"/>
           <include name="LaunchBrowswer"/>
           <include name="Booking"/>
+=======
+          <include name="LoginValidation"/>
+>>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
         </methods>
-      </class> <!-- FlightBooking -->
+      </class> <!-- ObjectLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
