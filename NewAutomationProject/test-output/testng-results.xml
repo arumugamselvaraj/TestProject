@@ -2,11 +2,20 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2020-05-21T21:51:02 EDT" name="Suite" finished-at="2020-05-21T21:52:55 EDT" duration-ms="112965">
+=======
+  <suite started-at="2020-05-22T01:13:07 IST" name="Default suite" finished-at="2020-05-22T01:13:41 IST" duration-ms="34343">
+>>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test started-at="2020-05-21T21:51:02 EDT" name="Chrome_Test" finished-at="2020-05-21T21:52:13 EDT" duration-ms="71189">
+=======
+    <test started-at="2020-05-22T01:13:07 IST" name="Default test" finished-at="2020-05-22T01:13:41 IST" duration-ms="34343">
+>>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
       <class name="FlightBooking">
+<<<<<<< HEAD
         <test-method is-config="true" signature="LaunchBrowswer(java.lang.String)[pri:0, instance:FlightBooking@33afa13b]" started-at="2020-05-21T21:51:03 EDT" name="LaunchBrowswer" finished-at="2020-05-21T21:52:08 EDT" duration-ms="64907" status="PASS">
           <params>
             <param index="0">
@@ -15,14 +24,25 @@
               </value>
             </param>
           </params>
+=======
+        <test-method is-config="true" signature="LaunchBrowswer()[pri:0, instance:FlightBooking@77167fb7]" started-at="2020-05-22T01:13:07 IST" name="LaunchBrowswer" finished-at="2020-05-22T01:13:26 IST" duration-ms="19255" status="PASS">
+>>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowswer -->
+<<<<<<< HEAD
         <test-method signature="Booking()[pri:0, instance:FlightBooking@33afa13b]" started-at="2020-05-21T21:52:10 EDT" name="Booking" finished-at="2020-05-21T21:52:13 EDT" duration-ms="2850" status="PASS">
+=======
+        <test-method signature="Booking()[pri:0, instance:FlightBooking@77167fb7]" started-at="2020-05-22T01:13:26 IST" name="Booking" finished-at="2020-05-22T01:13:41 IST" duration-ms="14710" status="PASS">
+>>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Booking -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@33afa13b]" started-at="2020-05-21T21:52:13 EDT" name="terminateBrowser" finished-at="2020-05-21T21:52:13 EDT" duration-ms="187" status="PASS">
+=======
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@77167fb7]" started-at="2020-05-22T01:13:41 IST" name="terminateBrowser" finished-at="2020-05-22T01:13:41 IST" duration-ms="215" status="PASS">
+>>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->

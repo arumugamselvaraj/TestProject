@@ -4,13 +4,12 @@
   <test thread-count="5" name="Chrome_Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="NewTest">
+      <class name="FlightBooking">
         <methods>
           <include name="terminateBrowser"/>
-          <include name="LaunchBrowswer"/>
-          <include name="LoginTest"/>
+          <include name="Booking"/>
         </methods>
-      </class> <!-- NewTest -->
+      </class> <!-- FlightBooking -->
     </classes>
   </test> <!-- Chrome_Test(failed) -->
   <test thread-count="5" name="Firfox_test(failed)">
