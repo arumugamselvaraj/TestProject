@@ -13,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Base {
 
 	public WebDriver driver = null;
-	public String baseurl = "http://demo.guru99.com/test/newtours/reservation.php";
+	public String baseurl = "http://demo.guru99.com/test/newtours/reservation.php    ";
 
 	@Parameters({ "browser" })
 	@BeforeTest

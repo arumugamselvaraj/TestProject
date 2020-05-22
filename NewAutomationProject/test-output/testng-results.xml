@@ -1,98 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2020-05-21T21:51:02 EDT" name="Suite" finished-at="2020-05-21T21:52:55 EDT" duration-ms="112965">
-=======
-  <suite started-at="2020-05-22T01:13:07 IST" name="Default suite" finished-at="2020-05-22T01:13:41 IST" duration-ms="34343">
->>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
+  <suite started-at="2020-05-23T00:03:31 IST" name="Default suite" finished-at="2020-05-23T00:03:31 IST" duration-ms="148">
     <groups>
     </groups>
-<<<<<<< HEAD
-    <test started-at="2020-05-21T21:51:02 EDT" name="Chrome_Test" finished-at="2020-05-21T21:52:13 EDT" duration-ms="71189">
-=======
-    <test started-at="2020-05-22T01:13:07 IST" name="Default test" finished-at="2020-05-22T01:13:41 IST" duration-ms="34343">
->>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
+    <test started-at="2020-05-23T00:03:31 IST" name="Default test" finished-at="2020-05-23T00:03:31 IST" duration-ms="148">
       <class name="FlightBooking">
-<<<<<<< HEAD
-        <test-method is-config="true" signature="LaunchBrowswer(java.lang.String)[pri:0, instance:FlightBooking@33afa13b]" started-at="2020-05-21T21:51:03 EDT" name="LaunchBrowswer" finished-at="2020-05-21T21:52:08 EDT" duration-ms="64907" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-=======
-        <test-method is-config="true" signature="LaunchBrowswer()[pri:0, instance:FlightBooking@77167fb7]" started-at="2020-05-22T01:13:07 IST" name="LaunchBrowswer" finished-at="2020-05-22T01:13:26 IST" duration-ms="19255" status="PASS">
->>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
+        <test-method is-config="true" signature="LaunchBrowswer(java.lang.String)[pri:0, instance:FlightBooking@2ddc8ecb]" started-at="2020-05-23T00:03:31 IST" name="LaunchBrowswer" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1590172411530" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method LaunchBrowswer but has not been marked @Optional or defined
+in C:\Users\Arumugam\AppData\Local\Temp\testng-eclipse--662715992\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method LaunchBrowswer but has not been marked @Optional or defined
+in C:\Users\Arumugam\AppData\Local\Temp\testng-eclipse--662715992\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:620)
+at org.testng.TestRunner.beforeRun(TestRunner.java:610)
+at org.testng.TestRunner.run(TestRunner.java:581)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowswer -->
-<<<<<<< HEAD
-        <test-method signature="Booking()[pri:0, instance:FlightBooking@33afa13b]" started-at="2020-05-21T21:52:10 EDT" name="Booking" finished-at="2020-05-21T21:52:13 EDT" duration-ms="2850" status="PASS">
-=======
-        <test-method signature="Booking()[pri:0, instance:FlightBooking@77167fb7]" started-at="2020-05-22T01:13:26 IST" name="Booking" finished-at="2020-05-22T01:13:41 IST" duration-ms="14710" status="PASS">
->>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
+        <test-method signature="Booking()[pri:0, instance:FlightBooking@2ddc8ecb]" started-at="2020-05-23T00:03:31 IST" name="Booking" finished-at="2020-05-23T00:03:31 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method LaunchBrowswer but has not been marked @Optional or defined
+in C:\Users\Arumugam\AppData\Local\Temp\testng-eclipse--662715992\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method LaunchBrowswer but has not been marked @Optional or defined
+in C:\Users\Arumugam\AppData\Local\Temp\testng-eclipse--662715992\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:299)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:620)
+at org.testng.TestRunner.beforeRun(TestRunner.java:610)
+at org.testng.TestRunner.run(TestRunner.java:581)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Booking -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@33afa13b]" started-at="2020-05-21T21:52:13 EDT" name="terminateBrowser" finished-at="2020-05-21T21:52:13 EDT" duration-ms="187" status="PASS">
-=======
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@77167fb7]" started-at="2020-05-22T01:13:41 IST" name="terminateBrowser" finished-at="2020-05-22T01:13:41 IST" duration-ms="215" status="PASS">
->>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@2ddc8ecb]" started-at="2020-05-23T00:03:31 IST" name="terminateBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1590172411651" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
       </class> <!-- FlightBooking -->
-    </test> <!-- Chrome_Test -->
-    <test started-at="2020-05-21T21:52:16 EDT" name="Firfox_test" finished-at="2020-05-21T21:52:47 EDT" duration-ms="30701">
-      <class name="FlightBooking">
-        <test-method is-config="true" signature="LaunchBrowswer(java.lang.String)[pri:0, instance:FlightBooking@1f0f1111]" started-at="2020-05-21T21:52:16 EDT" name="LaunchBrowswer" finished-at="2020-05-21T21:52:43 EDT" duration-ms="27439" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchBrowswer -->
-        <test-method signature="Booking()[pri:0, instance:FlightBooking@1f0f1111]" started-at="2020-05-21T21:52:43 EDT" name="Booking" finished-at="2020-05-21T21:52:45 EDT" duration-ms="2037" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Booking -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@1f0f1111]" started-at="2020-05-21T21:52:45 EDT" name="terminateBrowser" finished-at="2020-05-21T21:52:47 EDT" duration-ms="1223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- terminateBrowser -->
-      </class> <!-- FlightBooking -->
-    </test> <!-- Firfox_test -->
-    <test started-at="2020-05-21T21:52:49 EDT" name="Edge_test" finished-at="2020-05-21T21:52:55 EDT" duration-ms="6655">
-      <class name="FlightBooking">
-        <test-method is-config="true" signature="LaunchBrowswer(java.lang.String)[pri:0, instance:FlightBooking@1f3f4916]" started-at="2020-05-21T21:52:49 EDT" name="LaunchBrowswer" finished-at="2020-05-21T21:52:54 EDT" duration-ms="5023" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchBrowswer -->
-        <test-method signature="Booking()[pri:0, instance:FlightBooking@1f3f4916]" started-at="2020-05-21T21:52:54 EDT" name="Booking" finished-at="2020-05-21T21:52:55 EDT" duration-ms="1437" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Booking -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@1f3f4916]" started-at="2020-05-21T21:52:55 EDT" name="terminateBrowser" finished-at="2020-05-21T21:52:55 EDT" duration-ms="193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- terminateBrowser -->
-      </class> <!-- FlightBooking -->
-    </test> <!-- Edge_test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

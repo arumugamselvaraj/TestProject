@@ -9,6 +9,7 @@
 		</classes>
 	</test>
 	
+	
 	<test thread-count="5" name="Firfox_test">
 		<parameter name="browser" value="firefox" />
 		<classes>
