@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FlightBooking">
+      <class name="ObjectLogin">
         <methods>
-          <include name="terminateBrowser"/>
-          <include name="Booking"/>
+          <include name="LoginValidation"/>
         </methods>
-      </class> <!-- FlightBooking -->
+      </class> <!-- ObjectLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

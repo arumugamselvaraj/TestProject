@@ -1,98 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2020-05-21T21:51:02 EDT" name="Suite" finished-at="2020-05-21T21:52:55 EDT" duration-ms="112965">
-=======
-  <suite started-at="2020-05-22T01:13:07 IST" name="Default suite" finished-at="2020-05-22T01:13:41 IST" duration-ms="34343">
->>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
+  <suite started-at="2020-05-22T23:39:50 IST" name="Default suite" finished-at="2020-05-22T23:41:13 IST" duration-ms="82967">
     <groups>
     </groups>
-<<<<<<< HEAD
-    <test started-at="2020-05-21T21:51:02 EDT" name="Chrome_Test" finished-at="2020-05-21T21:52:13 EDT" duration-ms="71189">
-=======
-    <test started-at="2020-05-22T01:13:07 IST" name="Default test" finished-at="2020-05-22T01:13:41 IST" duration-ms="34343">
->>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
-      <class name="FlightBooking">
-<<<<<<< HEAD
-        <test-method is-config="true" signature="LaunchBrowswer(java.lang.String)[pri:0, instance:FlightBooking@33afa13b]" started-at="2020-05-21T21:51:03 EDT" name="LaunchBrowswer" finished-at="2020-05-21T21:52:08 EDT" duration-ms="64907" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-=======
-        <test-method is-config="true" signature="LaunchBrowswer()[pri:0, instance:FlightBooking@77167fb7]" started-at="2020-05-22T01:13:07 IST" name="LaunchBrowswer" finished-at="2020-05-22T01:13:26 IST" duration-ms="19255" status="PASS">
->>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
+    <test started-at="2020-05-22T23:39:50 IST" name="Default test" finished-at="2020-05-22T23:41:13 IST" duration-ms="82967">
+      <class name="ObjectLogin">
+        <test-method signature="LoginValidation()[pri:0, instance:ObjectLogin@3901d134]" started-at="2020-05-22T23:39:50 IST" name="LoginValidation" finished-at="2020-05-22T23:41:13 IST" duration-ms="82795" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchBrowswer -->
-<<<<<<< HEAD
-        <test-method signature="Booking()[pri:0, instance:FlightBooking@33afa13b]" started-at="2020-05-21T21:52:10 EDT" name="Booking" finished-at="2020-05-21T21:52:13 EDT" duration-ms="2850" status="PASS">
-=======
-        <test-method signature="Booking()[pri:0, instance:FlightBooking@77167fb7]" started-at="2020-05-22T01:13:26 IST" name="Booking" finished-at="2020-05-22T01:13:41 IST" duration-ms="14710" status="PASS">
->>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Booking -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@33afa13b]" started-at="2020-05-21T21:52:13 EDT" name="terminateBrowser" finished-at="2020-05-21T21:52:13 EDT" duration-ms="187" status="PASS">
-=======
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@77167fb7]" started-at="2020-05-22T01:13:41 IST" name="terminateBrowser" finished-at="2020-05-22T01:13:41 IST" duration-ms="215" status="PASS">
->>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- terminateBrowser -->
-      </class> <!-- FlightBooking -->
-    </test> <!-- Chrome_Test -->
-    <test started-at="2020-05-21T21:52:16 EDT" name="Firfox_test" finished-at="2020-05-21T21:52:47 EDT" duration-ms="30701">
-      <class name="FlightBooking">
-        <test-method is-config="true" signature="LaunchBrowswer(java.lang.String)[pri:0, instance:FlightBooking@1f0f1111]" started-at="2020-05-21T21:52:16 EDT" name="LaunchBrowswer" finished-at="2020-05-21T21:52:43 EDT" duration-ms="27439" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchBrowswer -->
-        <test-method signature="Booking()[pri:0, instance:FlightBooking@1f0f1111]" started-at="2020-05-21T21:52:43 EDT" name="Booking" finished-at="2020-05-21T21:52:45 EDT" duration-ms="2037" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Booking -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@1f0f1111]" started-at="2020-05-21T21:52:45 EDT" name="terminateBrowser" finished-at="2020-05-21T21:52:47 EDT" duration-ms="1223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- terminateBrowser -->
-      </class> <!-- FlightBooking -->
-    </test> <!-- Firfox_test -->
-    <test started-at="2020-05-21T21:52:49 EDT" name="Edge_test" finished-at="2020-05-21T21:52:55 EDT" duration-ms="6655">
-      <class name="FlightBooking">
-        <test-method is-config="true" signature="LaunchBrowswer(java.lang.String)[pri:0, instance:FlightBooking@1f3f4916]" started-at="2020-05-21T21:52:49 EDT" name="LaunchBrowswer" finished-at="2020-05-21T21:52:54 EDT" duration-ms="5023" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchBrowswer -->
-        <test-method signature="Booking()[pri:0, instance:FlightBooking@1f3f4916]" started-at="2020-05-21T21:52:54 EDT" name="Booking" finished-at="2020-05-21T21:52:55 EDT" duration-ms="1437" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Booking -->
-        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:FlightBooking@1f3f4916]" started-at="2020-05-21T21:52:55 EDT" name="terminateBrowser" finished-at="2020-05-21T21:52:55 EDT" duration-ms="193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- terminateBrowser -->
-      </class> <!-- FlightBooking -->
-    </test> <!-- Edge_test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- LoginValidation -->
+      </class> <!-- ObjectLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
