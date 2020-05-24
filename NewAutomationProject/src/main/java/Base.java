@@ -13,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Base {
 
 	public WebDriver driver = null;
-	public String baseurl = "http://demo.guru99.com/test/newtours/reservation.php    ";
+	public String baseurl = "https://anaithugoundermatrimony.com";
 
 	@Parameters({ "browser" })
 	@BeforeTest
@@ -35,7 +35,7 @@ public class Base {
 		}
 		
 		driver.get(baseurl);
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 
 	@AfterTest
