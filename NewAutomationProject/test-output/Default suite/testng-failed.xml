@@ -3,17 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ObjectLogin">
+      <class name="PageFactoryModule.LoginVerify">
         <methods>
-<<<<<<< HEAD
-          <include name="terminateBrowser"/>
+          <include name="LoginVerify"/>
           <include name="LaunchBrowswer"/>
-          <include name="Booking"/>
-=======
-          <include name="LoginValidation"/>
->>>>>>> branch 'master' of https://github.com/arumugamselvaraj/TestProject.git
         </methods>
-      </class> <!-- ObjectLogin -->
+      </class> <!-- PageFactoryModule.LoginVerify -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
