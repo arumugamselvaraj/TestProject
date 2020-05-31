@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PageFactoryModule.LoginVerify">
+      <class name="matrimony.tests.LoginVerify">
         <methods>
-          <include name="LoginVerify"/>
+          <include name="LoginTests"/>
           <include name="LaunchBrowswer"/>
+          <include name="terminateBrowser"/>
         </methods>
-      </class> <!-- PageFactoryModule.LoginVerify -->
+      </class> <!-- matrimony.tests.LoginVerify -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
