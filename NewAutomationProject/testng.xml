@@ -2,17 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
-	<!-- <test thread-count="5" name="Chrome_Test">
+	 <test thread-count="5" name="Chrome_Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="FlightBooking" />
-			<class name="SynchronizationElement"/>
-			<class name="ListRadioButtons"/>
+			<class name="matrimony.tests.LoginVerify"></class>
 		</classes>
 	</test>
 	
 	
-	<test thread-count="5" name="Firfox_test">
+	<!-- <test thread-count="5" name="Firfox_test">
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="FlightBooking" />
@@ -28,12 +26,12 @@
 			<class name="SynchronizationElement"/>
 			<class name="ListRadioButtons"/>
 		</classes>
-	</test>-->
+	</test>
 	<test name="test">
 	<packages>
 	<package name="PackageFactoryModule"></package>
-	</packages>
+	</packages> -->
 	
 
-		</test>
+		
 </suite>
