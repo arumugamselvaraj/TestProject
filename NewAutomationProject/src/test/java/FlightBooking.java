@@ -2,6 +2,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
+import project.base.Base;
+
 public class FlightBooking extends Base {
 	@Test
 	public void Booking() {
