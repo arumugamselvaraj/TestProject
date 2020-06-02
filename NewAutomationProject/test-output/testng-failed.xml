@@ -6,7 +6,6 @@
     <classes>
       <class name="gmail_login.tests.MailLogin">
         <methods>
-          <include name="TerinateBrowser"/>
           <include name="LaunchBrowswer"/>
           <include name="MailLoginValidation"/>
         </methods>
