@@ -2,15 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Chrome_Test(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="matrimony.tests.LoginVerify">
+      <class name="gmail_login.tests.MailLogin">
         <methods>
-          <include name="LoginTests"/>
+          <include name="TerinateBrowser"/>
           <include name="LaunchBrowswer"/>
-          <include name="terminateBrowser"/>
+          <include name="MailLoginValidation"/>
         </methods>
-      </class> <!-- matrimony.tests.LoginVerify -->
+      </class> <!-- gmail_login.tests.MailLogin -->
     </classes>
   </test> <!-- Chrome_Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

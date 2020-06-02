@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="matrimony.tests.LoginVerify">
+      <class name="gmail_login.tests.MailLogin">
         <methods>
-          <include name="LoginTests"/>
           <include name="LaunchBrowswer"/>
-          <include name="terminateBrowser"/>
+          <include name="MailLoginValidation"/>
         </methods>
-      </class> <!-- matrimony.tests.LoginVerify -->
+      </class> <!-- gmail_login.tests.MailLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

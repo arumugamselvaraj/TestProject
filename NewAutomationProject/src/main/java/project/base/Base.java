@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
@@ -15,7 +16,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Base {
 
 	public WebDriver driver = null;
-	public String baseurl = "https://anaithugoundermatrimony.com";
+	public String baseurl = "https://login.yahoo.com/?.src=ym&.lang=en-US&.intl=us&.done=https%3A%2F%2Fmail.yahoo.com%2Fd";
 
 	@Parameters({ "browser" })
 	@BeforeTest
@@ -23,7 +24,9 @@ public class Base {
 		
 		if (browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();			
+			ChromeOptions cOptions=new ChromeOptions();
+			cOptions.addArguments("'--disable-web-security', '--user-data-dir', '--allow-running-insecure-content'");
+			driver = new ChromeDriver(cOptions);			
 		}
 		
 		else if(browser.equals("firefox")) {
@@ -37,12 +40,9 @@ public class Base {
 		}
 		
 		driver.get(baseurl);
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 	}
 
-	@AfterTest
-	public void terminateBrowser() {
-		driver.close();
-	}
+
 
 }

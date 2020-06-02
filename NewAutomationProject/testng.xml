@@ -3,9 +3,9 @@
 <suite name="Suite">
 
 	 <test thread-count="5" name="Chrome_Test">
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="matrimony.tests.LoginVerify"></class>
+			<class name="gmail_login.tests.MailLogin"></class>
 		</classes>
 	</test>
 	
@@ -14,7 +14,7 @@
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="FlightBooking" />
-			<class name="SynchronizationElement"/>
+			<class name="SynchronizationElement"/>    
 			<class name="ListRadioButtons"/>
 		</classes>
 	</test>
