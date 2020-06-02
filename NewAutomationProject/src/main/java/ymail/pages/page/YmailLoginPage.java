@@ -1,12 +1,11 @@
-package project.pages.page;
+package ymail.pages.page;
 
 import org.openqa.selenium.WebDriver;
 
-import project.pages.map.LoginPageMap;
+import ymail.pages.map.YmailLoginPageMap;
 
-public class LoginPage extends LoginPageMap {
-	
-	public LoginPage(WebDriver driver) {
+public class YmailLoginPage extends YmailLoginPageMap {
+	public YmailLoginPage(WebDriver driver) {
 		super(driver);
 	}
 
@@ -15,16 +14,20 @@ public class LoginPage extends LoginPageMap {
 	};
 	
 	public void enterPassword(String pwd) {
-		username.sendKeys(pwd);
+		password.sendKeys(pwd);
 	};
 	
 	public void clickLoginBtn() {
 		loginbtn.click();
 	};	
 
-	public void LoginMethod(String uid, String pwd) {
+	public void YmailLoginMethod(String uid, String pwd) {
 		enterUsername(uid);
+		clickLoginBtn();
 		enterPassword(pwd);
 		clickLoginBtn();
+		
 	}
 }
+
+

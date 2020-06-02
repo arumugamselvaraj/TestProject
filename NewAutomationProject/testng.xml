@@ -5,7 +5,7 @@
 	 <test thread-count="5" name="Chrome_Test">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="gmail_login.tests.MailLogin"></class>
+			<class name="ymail.tests.ymailLogin"></class>
 		</classes>
 	</test>
 	

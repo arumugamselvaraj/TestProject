@@ -1,12 +1,22 @@
-package gmail_login.tests;
+package ymail.tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import project.base.Base;
+import project.pages.page.LoginPage;
 
 public class MailLogin extends Base {
+	
+	
+	@BeforeMethod
+	void PageInit() {
+		
+	}
+	
 	@Test
 	public void MailLoginValidation()
 	{
