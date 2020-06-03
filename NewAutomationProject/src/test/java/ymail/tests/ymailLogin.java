@@ -11,6 +11,13 @@ public class ymailLogin extends Base{
 		
 		YmailLoginPage YmailLogin=new YmailLoginPage(driver);
 		YmailLogin.YmailLoginMethod("arubtech@yahoo.com","8754604222");
+		driver.close();
 	}
 
+	@Test
+public void YmailCountVerification() {
+		
+		YmailLoginPage YmailLogin1=new YmailLoginPage(driver);
+		YmailLogin1.YmailLoginCountMethod("arubtech@yahoo.com","8754604222");
+	}
 }

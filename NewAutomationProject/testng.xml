@@ -6,6 +6,7 @@
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="ymail.tests.ymailLogin"></class>
+			
 		</classes>
 	</test>
 	

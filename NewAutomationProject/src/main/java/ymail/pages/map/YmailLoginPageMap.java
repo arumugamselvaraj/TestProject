@@ -1,5 +1,7 @@
 package ymail.pages.map;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,6 +18,8 @@ public class YmailLoginPageMap {
 	protected WebElement username;
 	@FindBy(how = How.ID, using = "login-passwd")
 	protected WebElement password;
+	@FindBy(how=How.XPATH,using="//*[@id=\"app\"]/div[2]/div/div[1]/nav/div/div[3]/div[1]/ul/li[1]/div/a")
+	protected List<WebElement> inbox;
 	@FindBy(how = How.ID, using = "login-signin")
 	protected WebElement loginbtn;
 }
