@@ -4,13 +4,12 @@
   <test thread-count="5" name="Chrome_Test(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="ymail.tests.MailLogin">
+      <class name="ymail.tests.ymailLogin">
         <methods>
-          <include name="MailLoginValidation"/>
-          <include name="PageInit"/>
           <include name="LaunchBrowswer"/>
+          <include name="YmailLoginVerification"/>
         </methods>
-      </class> <!-- ymail.tests.MailLogin -->
+      </class> <!-- ymail.tests.ymailLogin -->
     </classes>
   </test> <!-- Chrome_Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

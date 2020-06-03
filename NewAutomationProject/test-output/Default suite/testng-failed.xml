@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ymail.tests.MailLogin">
+      <class name="ymail.tests.ymailLogin">
         <methods>
-          <include name="MailLoginValidation"/>
-          <include name="PageInit"/>
           <include name="LaunchBrowswer"/>
+          <include name="YmailCountVerification"/>
         </methods>
-      </class> <!-- ymail.tests.MailLogin -->
+      </class> <!-- ymail.tests.ymailLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
