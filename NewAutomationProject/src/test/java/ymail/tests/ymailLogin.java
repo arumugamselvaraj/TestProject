@@ -1,5 +1,6 @@
 package ymail.tests;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 import project.base.Base;
@@ -11,8 +12,10 @@ public class ymailLogin extends Base{
 		
 		YmailLoginPage YmailLogin=new YmailLoginPage(driver);
 		YmailLogin.YmailLoginMethod("arubtech@yahoo.com","8754604222");
-		driver.close();
+		
 	}
+	
+	
 
 	@Test
 public void YmailCountVerification() {

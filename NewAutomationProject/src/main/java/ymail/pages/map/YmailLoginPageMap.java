@@ -18,8 +18,12 @@ public class YmailLoginPageMap {
 	protected WebElement username;
 	@FindBy(how = How.ID, using = "login-passwd")
 	protected WebElement password;
-	@FindBy(how=How.XPATH,using="//*[@id=\"app\"]/div[2]/div/div[1]/nav/div/div[3]/div[1]/ul/li[1]/div/a")
+	@FindBy(how=How.XPATH,using="//*[@id=\"app\"]/div[2]/div/div[1]/nav/div/div[3]/div[1]/ul/li[1]/div/a/span[2]/span")
 	protected List<WebElement> inbox;
 	@FindBy(how = How.ID, using = "login-signin")
 	protected WebElement loginbtn;
+	@FindBy(how=How.XPATH,using="//*[@id=\"app\"]/div[2]/div/div[1]/nav/div/div[3]/div[1]/ul/li[1]/div/a/span[2]/span")
+	protected WebElement inbox1;
+	
+	
 }
