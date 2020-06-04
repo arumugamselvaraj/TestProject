@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-06-03T20:58:22 IST" name="Suite" finished-at="2020-06-03T20:59:53 IST" duration-ms="91128">
+  <suite started-at="2020-06-04T22:54:26 IST" name="Suite" finished-at="2020-06-04T22:57:10 IST" duration-ms="163436">
     <groups>
     </groups>
-    <test started-at="2020-06-03T20:58:22 IST" name="Chrome_Test" finished-at="2020-06-03T20:59:53 IST" duration-ms="91128">
+    <test started-at="2020-06-04T22:54:26 IST" name="Chrome_Test" finished-at="2020-06-04T22:57:10 IST" duration-ms="163436">
       <class name="ymail.tests.ymailLogin">
-        <test-method is-config="true" signature="LaunchBrowswer(java.lang.String)[pri:0, instance:ymail.tests.ymailLogin@77167fb7]" started-at="2020-06-03T20:58:22 IST" name="LaunchBrowswer" finished-at="2020-06-03T20:58:45 IST" duration-ms="23378" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowswer(java.lang.String)[pri:0, instance:ymail.tests.ymailLogin@77167fb7]" started-at="2020-06-04T22:54:27 IST" name="LaunchBrowswer" finished-at="2020-06-04T22:55:24 IST" duration-ms="57534" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowswer -->
-        <test-method signature="YmailCountVerification()[pri:0, instance:ymail.tests.ymailLogin@77167fb7]" started-at="2020-06-03T20:58:46 IST" name="YmailCountVerification" finished-at="2020-06-03T20:59:01 IST" duration-ms="15561" status="PASS">
+        <test-method signature="YmailCountVerification()[pri:0, instance:ymail.tests.ymailLogin@77167fb7]" started-at="2020-06-04T22:55:24 IST" name="YmailCountVerification" finished-at="2020-06-04T22:56:20 IST" duration-ms="55441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- YmailCountVerification -->
-        <test-method signature="YmailLoginVerification()[pri:0, instance:ymail.tests.ymailLogin@77167fb7]" started-at="2020-06-03T20:59:01 IST" name="YmailLoginVerification" finished-at="2020-06-03T20:59:53 IST" duration-ms="51692" status="FAIL">
+        <test-method signature="YmailLoginVerification()[pri:0, instance:ymail.tests.ymailLogin@77167fb7]" started-at="2020-06-04T22:56:20 IST" name="YmailLoginVerification" finished-at="2020-06-04T22:57:10 IST" duration-ms="50186" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: #login\-username
@@ -30,8 +30,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LENOVO', ip: '192.168.43.21', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '13.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200528194502, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4788, moz:profile: C:\Users\Arumugam\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 64430716-a6a7-4699-8f74-4ac6ca3e8f45
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200528194502, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6804, moz:profile: C:\Users\Arumugam\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5be0e71d-cd70-4b24-b5b2-c3c588d60c65
 *** Element info: {Using=id, value=login-username}]]>
             </message>
             <full-stacktrace>
@@ -40,8 +40,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LENOVO', ip: '192.168.43.21', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '13.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200528194502, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4788, moz:profile: C:\Users\Arumugam\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 64430716-a6a7-4699-8f74-4ac6ca3e8f45
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200528194502, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6804, moz:profile: C:\Users\Arumugam\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5be0e71d-cd70-4b24-b5b2-c3c588d60c65
 *** Element info: {Using=id, value=login-username}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -60,10 +60,10 @@ at org.openqa.selenium.By$ById.findElement(By.java:188)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.sendKeys(Unknown Source)
-at ymail.pages.page.YmailLoginPage.enterUsername(YmailLoginPage.java:16)
-at ymail.pages.page.YmailLoginPage.YmailLoginMethod(YmailLoginPage.java:34)
-at ymail.tests.ymailLogin.YmailLoginVerification(ymailLogin.java:13)
+at com.sun.proxy.$Proxy13.sendKeys(Unknown Source)
+at ymail.pages.page.YmailLoginPage.enterUsername(YmailLoginPage.java:18)
+at ymail.pages.page.YmailLoginPage.YmailLoginMethod(YmailLoginPage.java:64)
+at ymail.tests.ymailLogin.YmailLoginVerification(ymailLogin.java:14)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
