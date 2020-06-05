@@ -22,6 +22,23 @@ public class YmailLoginPage extends YmailLoginPageMap {
 		password.sendKeys(pwd);
 	};
 	
+	public void toMail(String tomail) {
+		Tomail.sendKeys(tomail);
+	};
+	
+	public void subject(String subject) {
+		toSubject.sendKeys(subject);
+	};
+	public void mailSend() {
+		mailClick.click();
+	}
+	
+	
+	public void compose()
+	{
+		compose.click();
+	}
+	
 public void enterPath1() {
 		
 		WebElement inboxsize=inbox1;
@@ -30,13 +47,17 @@ public void enterPath1() {
 		System.out.println(inboxtext);
 		
 	};
+	public void subjectVerify() {
+		String subjecTitle=SubjectVerify.getText();
+		System.out.println(subjecTitle);
+	}
 	public void enterPath() {
 		
 		List<WebElement> emailList = inbox;
 		System.out.println(emailList.size());
 		
 		
-		String MyMailer ="inbox";
+		String MyMailer ="test";
 
 	
 		for(int i=0;i<emailList.size();i++){
@@ -68,15 +89,29 @@ public void enterPath1() {
 		
 		
 	}
-	public void YmailLoginCountMethod(String uid, String pwd) {
+	/*public void YmailLoginCountMethod(String uid, String pwd) {
 		enterUsername(uid);
 		clickLoginBtn();
 		enterPassword(pwd);
 		clickLoginBtn();
-		enterPath1();
+		//enterPath1();
 		//enterPath();
 		
 		
+		
+	}*/
+	
+	public void SendYmail(String uid, String pwd,String tomail,String subject)
+	{
+		enterUsername(uid);
+		clickLoginBtn();
+		enterPassword(pwd);
+		clickLoginBtn();
+		compose();
+		toMail(tomail);
+		subject(subject);
+		mailSend();
+		subjectVerify();
 		
 	}
 }
